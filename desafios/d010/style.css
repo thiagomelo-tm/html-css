@@ -1,0 +1,88 @@
+@charset "UTF-8";
+body{
+    background-color: #84E1AD;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+header#principal{
+    background-image: linear-gradient(to top, #1A5C38,#38C979);
+    padding: 25px 10px 10px 20px;
+    color: white;
+}
+header#principal > h1{
+    font-family: Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    
+}
+div#frase{
+    height: 40px;
+    width: 360px;
+    margin: auto;
+}
+div#frase > p{
+    text-align: center;
+    margin: 0px;
+}
+header#principal > nav{
+    margin: 31px 0px 0px 0px;
+}
+nav > a{
+    margin: 0px 20px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+article{
+    margin: auto;
+    padding: 10px;
+    width: 600px;
+    background-color: white;
+
+}
+article > p{
+    text-indent: 20px;
+}
+article > h2{
+    background-image: linear-gradient(to right, #84E1AD, white);
+}
+section#video{
+    padding: 10px;
+    margin: auto;
+    height: 360px;
+    width: 600px;
+    background-color: #1A5C38;
+}
+section#extra{
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    background-color:white;
+}
+header{
+    padding: 5px;
+    background-color: #38C979;
+}
+div#caixa{
+    padding: 1px 10px;
+    background-color: #84E1AD;
+
+}
+footer{
+    margin: 20px 0px 0px 0px;
+    height: 20px;
+    padding: 5px;
+    background-color: #1A5C38;
+}
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    font-style: italic;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}

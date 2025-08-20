@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+        }
+        a{
+            color: red;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a#especial:hover{
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: ' [link]';
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a id="especial" href="https://www.youtube.com/watch?v=xP6iYISIocw" target="_blank">Repositorio Github</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xP6iYISIocw">Canal do Youtube</a></li>
+        <li><a href="https://www.youtube.com/watch?v=xP6iYISIocw">Video TOP </a></li>
+    </ul>
+    
+</body>
+</html>

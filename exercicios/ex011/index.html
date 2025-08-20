@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexiveis</title>
+</head>
+<body>
+    <h1>Imagem responsivas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotoM.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="A imagem 1000x1000">
+    </picture>
+    <audio preload="none" controls autoplay>
+        <source src="audios/musicaPianoMP3.mp3" type="audio/mpeg">
+        <p>Seu navegador nao tem suporte a mp3 <a href="audios/musicaPianoMP3.mp3" download="musicaPianoMP3.mp3" type="audio/mpeg">Clique aqui para download</a></p>
+    </audio>
+    <video width="400" poster="imagens/fotoM.png" controls autoplay>
+        <source src="videos/gatinhos.mp4" type="video/mp4">
+        <p>Infelizmente seu navegador nao conseguiu carregar o video</p>
+    </video>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xP6iYISIocw?si=NKXXZsmiG0ORoD6-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>
